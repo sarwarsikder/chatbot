@@ -49,5 +49,4 @@ if __name__ == '__main__':
             score = row['score']
             comment_id = row['name']
             subreddit = row['subreddit']
-
             parent_data = find_parent(parent_id)
